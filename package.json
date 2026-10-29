@@ -1,0 +1,20 @@
+{
+  "name": "udemy-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.js -f json:cucumber_report.json",
+    "report": "node reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "chai": "^6.3.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.64.1",
+    "prettier": "^3.9.10"
+  }
+}
